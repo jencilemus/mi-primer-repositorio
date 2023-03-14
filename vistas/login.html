@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COMERCIAL GILEBERT | Log in</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="../librerias/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../librerias/plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="../librerias/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../librerias/dist/css/adminlte.min.css">
+</head>
+<body background="../librerias/dist/img/fondopan.jpg" style="background-size:cover;" class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <img class="animation__shake" src="../librerias/dist/img/logogilber.jpg" alt="Comercial gilbert" height="100" width="100">
+<br><a href="login.html" style="color:rgb(245, 241, 241); background-color:rgba(18, 17, 17, 0.301);"><b>Usuario</b></a>
+  </div>
+  <!-- /.login-logo -->
+  <div class="card">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Inicio de sesión</p>
+
+      <form action="../index.php" method="post">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" id="clave" name="clave" class="form-control" placeholder="Clave">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+          </div>
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="button" onclick="verificarclave()" class="btn btn-primary btn-block">Ingresar</button>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+
+    </div>
+    <!-- /.login-card-body -->
+  </div>
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="../librerias/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../librerias/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- SweetAlert2 -->
+<script src="../librerias/plugins/sweetalert2/sweetalert2.min.js"></script>
+
+<!-- AdminLTE App -->
+<script src="../librerias/dist/js/adminlte.min.js"></script>
+
+<script type="text/javascript" src="scripts/login.js"></script>
+
+</body>
+</html>
